@@ -1,0 +1,4 @@
+site_name: Documentation du projet
+
+theme:
+  name: material
