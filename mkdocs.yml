@@ -2,3 +2,6 @@ site_name: Documentation du projet
 
 theme:
   name: material
+
+nav:
+  - Accueil: index.md
