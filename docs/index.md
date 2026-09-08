@@ -1,17 +1,40 @@
-# Welcome to MkDocs
+# 🏢 Projet SportLudique 2026-2027
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Bienvenue sur notre documentation du projet **SportLudique**.
 
-## Commands
+## 📍 Sites
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Notre infrastructure comporte plusieurs sites :
 
-## Project layout
+ *## Étapes
+## Sites
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+ Bourges
+ Chartres
+ Blois
+ Tours
+ Orléans
+
+## 🌐 Plan d'adressage
+
+| Site | Réseau | Masque |
+|---|---|---|
+| Bourges | `172.28.192.0/19` | `255.255.224.0` |
+| Chartres | `172.28.160.0/19` | `255.255.224.0` |
+
+## 🔌 VLAN
+
+Nous allons mettre en place plusieurs VLAN :
+
+ VLAN 10 → Administration
+ VLAN 20 → Utilisateurs
+ VLAN 30 → Serveurs
+ VLAN 40 → Wi-Fi
+
+## 💻 Exemple de configuration
+
+```text
+Adresse IP : 172.28.192.10
+Masque     : 255.255.224.0
+Passerelle : 172.28.192.1
