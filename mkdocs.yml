@@ -1,4 +1,19 @@
-site_name: Documentation du projet
+site_name: Documentation du projet Bourges
 
 theme:
   name: material
+  palette:
+    # Mode clair
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    # Mode sombre
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+
+nav:
+  - Accueil: index.md
+  - Infrastructure: infra.md
