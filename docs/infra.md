@@ -58,3 +58,4 @@ Le site comprend notamment :
 * des postes clients/test
 
 ---
+![alt text](image-1.png)

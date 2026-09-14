@@ -12,8 +12,12 @@ theme:
         icon: material/brightness-4
         name: Passer en mode clair
 
+plugins:
+  - search
+  - encryptcontent: {}
+
 nav:
-  -
   - Documentation: Documentation.md
   - Infrastructure: infra.md
   - Présentation: Presentation.md
+  - Confidentiel: secret.md
