@@ -19,5 +19,5 @@ plugins:
 nav:
   - Documentation: Documentation.md
   - Infrastructure: infra.md
-  - Présentation: Presentation.md
+  - Présentation: presentation.md
   - Confidentiel: secret.md
