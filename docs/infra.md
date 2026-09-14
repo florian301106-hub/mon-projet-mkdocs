@@ -1,9 +1,7 @@
 # Infrastructure
 
 ## IPAM
-notre tableau IPAM actuel
-image a mettre
-
+![alt text](image-2.png)
 ### Plan d'adressage VLAN
 
 | VLAN | Nom            | Réseau            |
