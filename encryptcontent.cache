@@ -1,0 +1,5 @@
+kdf_iterations: 100000
+obfuscate: {}
+password:
+  Poisson.Kouka: b5bd469d3f1753ebc7aaefbf346d066556e33b469581a0a3fde1b3ae523debaf;a9153cd92d004ba5b701381fabf27c04;476d4e975517a467b6f6b0e36b5c6f0dcfacf880b38f8348d634b49ced19d403
+userpass: {}
