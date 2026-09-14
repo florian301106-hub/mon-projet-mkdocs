@@ -2,6 +2,18 @@ site_name: Documentation du projet
 
 theme:
   name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
 
 nav:
-  - Accueil: index.md
+  -
+  - Documentation: Documentation.md
+  - Infrastructure: infra.md
+  - Présentation: Presentation.md
