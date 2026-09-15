@@ -4,10 +4,11 @@
 Bienvenue sur la documentation du projet **SportLudique**, réalisé par **Bonheur** et **Florian** dans le cadre du BTS SIO SISR (2026-2027).
 
 ## équipe
-    - **Projet** : SportLudique
-    - **Équipe** : Bonheur & Florian
-    - **Année** : 2026-2027
-    - **Sites** : Bourges
+| Projet  | SportLudique       |
+|---------|--------------------|
+| Equipe  | Bonheur et Florian |
+| Année   | 2026-2027          |
+| sites   | Bourges            |   
 
 ## Présentation
 
