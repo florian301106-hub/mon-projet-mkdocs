@@ -2,12 +2,39 @@
 
 ## Switch
 
-- ajout du ssh
-- ajout des vlan
-- ajout du mode trunk
+Sur le switch de niveau 3 nous l'avons configurer en ssh avec et un mot de passe 
+
+ * apres quoi nous avons eu un problème de mémoire une fois le switch débrancher les configuration sont supprimer ou sauté 
+
+ * le problème a été résolu en (FLO)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nous avons ajouter deux Vlan au début le Vlan MANA qui va manager le switch routeur et VLAN et un Vlan 212 qui est pour l'instant un vlan de test ...(FLO)
+
+
+
+
+
+
+
+
+
+
+nous ajoutons le mode trunk sur le switch 
 
 ## Routeur
-
+(à venir)
 - reinitialisation du routeur 
 - mode trunk
 - config realisé
