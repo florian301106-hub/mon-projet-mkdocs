@@ -3,17 +3,35 @@ site_name: Documentation du projet Bourges
 theme:
   name: material
   palette:
+<<<<<<< HEAD
     # Mode clair
+=======
+>>>>>>> 9b177308e5545a095d5ecdcdb2494d84cdf9d347
     - scheme: default
       toggle:
         icon: material/brightness-7
         name: Passer en mode sombre
+<<<<<<< HEAD
     # Mode sombre
+=======
+>>>>>>> 9b177308e5545a095d5ecdcdb2494d84cdf9d347
     - scheme: slate
       toggle:
         icon: material/brightness-4
         name: Passer en mode clair
 
+<<<<<<< HEAD
 nav:
   - Accueil: index.md
   - Infrastructure: infra.md
+=======
+plugins:
+  - search
+  - encryptcontent: {}
+
+nav:
+  - Documentation: Documentation.md
+  - Infrastructure: infra.md
+  - Présentation: presentation.md
+  - Confidentiel: secret.md
+>>>>>>> 9b177308e5545a095d5ecdcdb2494d84cdf9d347
