@@ -33,11 +33,39 @@ Nous avons ajouter deux Vlan au début le Vlan MANA qui va manager le switch rou
 
 nous ajoutons le mode trunk sur le switch 
 
-## Routeur
-(à venir)
-- reinitialisation du routeur 
-- mode trunk
-- config realisé
+## Routeur 2
+
+## 1. Objectif
+
+Mettre en place une connexion **SSH** sur un routeur Cisco afin de pouvoir l'administrer à distance.
+
+Copier la configuration routeur 2.
+
+---
+## 2. Configuration de la sous-interface
+
+
+(Le routeur a été réinitialisé afin de repartir sur une configuration propre.)
+
+
+Une sous-interface a été créée pour le **VLAN 110**.
+
+```cisco
+interface GigabitEthernet1/1.110
+encapsulation dot1Q 110
+ip address <10.110.0.252> <255.255.255.0>
+no shutdown
+```
+
+La sous-interface `G0/1.110` est donc associée au VLAN 110 grâce à :
+
+```cisco
+encapsulation dot1Q 110
+```
+
+---
+
+
 
 ## Page protégée par mot de passe
 
