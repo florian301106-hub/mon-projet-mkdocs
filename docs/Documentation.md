@@ -71,11 +71,11 @@ encapsulation dot1Q 110
 
 Une page secrète a été mise en place pour isolé les configuration qui serait sensible. Cette protection est possible grace au plugin `mkdocs-encryptcontent-plugin`, installé via pip et déclaré dans le fichier `mkdocs.yml` :
 
-​```yaml
-plugins:
-  - search
-  - encryptcontent: {}
-​```
+​`yaml`
+`plugins:`
+  `- search`
+ ` - encryptcontent: {}`
+​
 
 Le mot de passe est défini directement dans l'en-tête (il faut créer un fichier en .md ) de la page à protéger :
 
