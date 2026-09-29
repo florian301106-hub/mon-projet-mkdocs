@@ -56,4 +56,8 @@ Le site comprend notamment :
 * des postes clients/test
 
 ---
-![alt text](image-6.png)
+## Logique
+
+![alt text](image-7.png)
+
+### Phsique
